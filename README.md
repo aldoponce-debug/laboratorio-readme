@@ -1,32 +1,64 @@
-# Laboratorio README
+# Sistema de Gestión de Biblioteca
 
-![Estado](https://img.shields.io/badge/build-passing-brightgreen)
+![Estado](https://img.shields.io/badge/Estado-En_Desarrollo-yellow)
 
-Proyecto de práctica para aprender Markdown avanzado en GitHub. 
+Aplicación web para la gestión, préstamo y reserva de libros en línea. Permite a los usuarios explorar el catálogo disponible y a los administradores gestionar el inventario de la biblioteca de forma eficiente.
+
+## Tabla de contenidos
+
+- [Descripción](#descripción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estado de funcionalidades](#estado-de-funcionalidades)
+- [Tareas pendientes](#tareas-pendientes)
+- [Arquitectura](#arquitectura)
+- [Contribuidores](#contribuidores)
 
 ## Descripción
-Este repositorio documenta paso a paso mi aprendizaje de Markdown: tablas, listas de tareas, badges y diagramas.
+
+El sistema optimiza el control de préstamos bibliotecarios, reduciendo tiempos de atención y facilitando el acceso a recursos académicos.
+
+bash
+git clone https://github.com/aldoponce-debug/laboratorio-readme.git
+cd laboratorio-readme
+npm install
+
+
+## Instalación
+
+```bash
+git clone https://github.com/aldoponce-debug/laboratorio-readme.git
+cd laboratorio-readme
+npm install
+```
+
+## Uso
+
+bash
+npm start
 
 ## Estado de funcionalidades
 
 | Función | Estado |
-|---------|------------|
-| Login | Listo |
-| Reportes | En progreso |
+|---------|--------|
+| Catálogo de libros | Listo |
+| Préstamos | En progreso |
 
-## Pendientes
+## Tareas pendientes
 
--[x] Diseño de la base de datos
-
--[ ] Pruebas unitarias
-
+- [x] Diseño de base de datos
+- [ ] Integración con usuarios
 
 ## Arquitectura
 
 ```mermaid
 graph LR
-    A[Usuario] --> B[Frontend]
-    B --> C[API]
-    C --> D[(Base de datos)]
+A[Usuario] --> B[Frontend]
+B --> C[API]
+C --> D[(Base de datos)]
 ```
 
+## Contribuidores
+
+- **Nombre:** Aldo Emanuel Ponce Cruz 
+- **GitHub:** [@aldoponce-debug](https://github.com/aldoponce-debug)
