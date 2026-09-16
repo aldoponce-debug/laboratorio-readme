@@ -20,10 +20,13 @@ Este repositorio documenta paso a paso mi aprendizaje de Markdown: tablas, lista
 
 -[ ] Pruebas unitarias
 
+
 ## Arquitectura
 
-```mermaid graph LR
-A[Usuario] --> B[Frontend]
-B--> C[API]
-C--> D[(Base de datos)]
+```mermaid
+graph LR
+    A[Usuario] --> B[Frontend]
+    B --> C[API]
+    C --> D[(Base de datos)]
 ```
+
